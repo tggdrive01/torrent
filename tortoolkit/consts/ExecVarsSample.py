@@ -5,16 +5,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "6b1ece4882de297563e0d35eabf203b1"
+        API_ID = 3079559
+        BOT_TOKEN = "1695251886:AAHUnN2TdUBJRGbY0t1iRF2XOk-hFgzPvQg"
+        BASE_URL_OF_BOT = "http://t.me/Tggrive_bot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [1664722478,-1001298547756]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -34,8 +34,8 @@ except:
         # Chracter to use as a incomplete progress
         REMAINING_STR = "▱"
 
-        # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        # DB URI for acces
+        DB_URI = "postgres://mlebkachauifzo:99ca741f3cd68bb5a43a3eff246c3e58da014340475864d7704f3e336a83b12c@ec2-3-231-194-96.compute-1.amazonaws.com:5432/d4dca4ruae5t6q"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -55,7 +55,7 @@ except:
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = ""
